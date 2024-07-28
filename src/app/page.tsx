@@ -119,7 +119,6 @@ Your ultimate companion in navigating the academic landscape of Stanford.`,
             }}
           />
 
-          <PoweredBy />
         </div>
       </div>
     </main>
