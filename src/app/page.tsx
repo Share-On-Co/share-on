@@ -5,7 +5,6 @@ import { Message as MessageProps, useChat } from "ai/react";
 import Form from "@/components/form";
 import Message from "@/components/message";
 import cx from "@/utils/cx";
-import PoweredBy from "@/components/powered-by";
 import MessageLoading from "@/components/message-loading";
 import { INITIAL_QUESTIONS } from "@/utils/const";
 
@@ -22,9 +21,10 @@ export default function Home() {
         {
           id: "0",
           role: "system",
-          content: `**Welcome to DegreeGuru**
+          content: `**Welcome to Share-On**
 
-Your ultimate companion in navigating the academic landscape of Stanford.`,
+Share-On is at your assistance and here to support you.
+`,
         },
       ],
       onResponse: () => {
@@ -60,7 +60,7 @@ Your ultimate companion in navigating the academic landscape of Stanford.`,
   );
 
   return (
-    <main className="relative max-w-screen-md p-4 md:p-6 mx-auto flex min-h-svh !pb-32 md:!pb-40 overflow-y-auto">
+    <main className="relative max-w-screen-md p-4 md:p-6 mx-auto flex min-h-svh !pb-32 md:!pb-40 overflow-y-auto ">
       <div className="w-full">
         {messages.map((message: MessageProps) => {
           return <Message key={message.id} {...message} />;
