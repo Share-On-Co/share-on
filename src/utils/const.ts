@@ -1,15 +1,14 @@
 export const INITIAL_QUESTIONS = [
   {
-    content: "Are there resources for students interested in creative writing?",
+    content: "What are some effective strategies for managing anxiety?",
   },
   {
-    content: "Are there courses on environmental sustainability?",
+    content: "Can you provide tips for improving sleep quality?",
   },
   {
-    content:
-      "Are there any workshops or seminars on entrepreneurship for students?",
+    content: "What should I do if I feel overwhelmed with stress?",
   },
   {
-    content: "What kinds of courses will I take as a philosophy major?",
+    content: "How can I support a friend who is dealing with depression?",
   },
 ];
